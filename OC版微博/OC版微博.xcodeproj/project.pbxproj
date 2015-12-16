@@ -109,16 +109,16 @@
 			children = (
 				04F7ED111C20FA3C00EA4FBD /* AppDelegate.h */,
 				04F7ED121C20FA3C00EA4FBD /* AppDelegate.m */,
-				04F7ED131C20FA3C00EA4FBD /* Extension */,
-				04F7ED141C20FA3C00EA4FBD /* Library */,
-				04F7ED151C20FA3C00EA4FBD /* Model */,
-				04F7ED161C20FA3C00EA4FBD /* Module */,
-				04F7ED2B1C20FA3C00EA4FBD /* Tool */,
+				04F7ED131C20FA3C00EA4FBD /* Extension（分类） */,
+				04F7ED141C20FA3C00EA4FBD /* Library (第三方库) */,
+				04F7ED151C20FA3C00EA4FBD /* Model (全局业务模型) */,
+				04F7ED161C20FA3C00EA4FBD /* Module (业务模块) */,
+				04F7ED2B1C20FA3C00EA4FBD /* Tool (工具类) */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
 		};
-		04F7ED131C20FA3C00EA4FBD /* Extension */ = {
+		04F7ED131C20FA3C00EA4FBD /* Extension（分类） */ = {
 			isa = PBXGroup;
 			children = (
 				04F7ED421C21054100EA4FBD /* UIView+Extend.h */,
@@ -126,42 +126,47 @@
 				04F7ED3F1C21051E00EA4FBD /* NSObject+Log.h */,
 				04F7ED401C21051E00EA4FBD /* NSObject+Log.m */,
 			);
+			name = "Extension（分类）";
 			path = Extension;
 			sourceTree = "<group>";
 		};
-		04F7ED141C20FA3C00EA4FBD /* Library */ = {
+		04F7ED141C20FA3C00EA4FBD /* Library (第三方库) */ = {
 			isa = PBXGroup;
 			children = (
 			);
+			name = "Library (第三方库)";
 			path = Library;
 			sourceTree = "<group>";
 		};
-		04F7ED151C20FA3C00EA4FBD /* Model */ = {
+		04F7ED151C20FA3C00EA4FBD /* Model (全局业务模型) */ = {
 			isa = PBXGroup;
 			children = (
 			);
+			name = "Model (全局业务模型)";
 			path = Model;
 			sourceTree = "<group>";
 		};
-		04F7ED161C20FA3C00EA4FBD /* Module */ = {
+		04F7ED161C20FA3C00EA4FBD /* Module (业务模块) */ = {
 			isa = PBXGroup;
 			children = (
-				04F7ED171C20FA3C00EA4FBD /* Discover */,
-				04F7ED1B1C20FA3C00EA4FBD /* Home */,
-				04F7ED1F1C20FA3C00EA4FBD /* Main */,
-				04F7ED231C20FA3C00EA4FBD /* Message */,
-				04F7ED271C20FA3C00EA4FBD /* Profile */,
+				04F7ED171C20FA3C00EA4FBD /* Discover (发现) */,
+				04F7ED1B1C20FA3C00EA4FBD /* Home (首页) */,
+				04F7ED1F1C20FA3C00EA4FBD /* Main (主要的) */,
+				04F7ED231C20FA3C00EA4FBD /* Message (消息) */,
+				04F7ED271C20FA3C00EA4FBD /* Profile (我) */,
 			);
+			name = "Module (业务模块)";
 			path = Module;
 			sourceTree = "<group>";
 		};
-		04F7ED171C20FA3C00EA4FBD /* Discover */ = {
+		04F7ED171C20FA3C00EA4FBD /* Discover (发现) */ = {
 			isa = PBXGroup;
 			children = (
 				04F7ED181C20FA3C00EA4FBD /* Controller */,
 				04F7ED191C20FA3C00EA4FBD /* Model */,
 				04F7ED1A1C20FA3C00EA4FBD /* View */,
 			);
+			name = "Discover (发现)";
 			path = Discover;
 			sourceTree = "<group>";
 		};
@@ -188,13 +193,14 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		04F7ED1B1C20FA3C00EA4FBD /* Home */ = {
+		04F7ED1B1C20FA3C00EA4FBD /* Home (首页) */ = {
 			isa = PBXGroup;
 			children = (
 				04F7ED1C1C20FA3C00EA4FBD /* Controller */,
 				04F7ED1D1C20FA3C00EA4FBD /* Model */,
 				04F7ED1E1C20FA3C00EA4FBD /* View */,
 			);
+			name = "Home (首页)";
 			path = Home;
 			sourceTree = "<group>";
 		};
@@ -225,13 +231,14 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		04F7ED1F1C20FA3C00EA4FBD /* Main */ = {
+		04F7ED1F1C20FA3C00EA4FBD /* Main (主要的) */ = {
 			isa = PBXGroup;
 			children = (
 				04F7ED201C20FA3C00EA4FBD /* Controller */,
 				04F7ED211C20FA3C00EA4FBD /* Model */,
 				04F7ED221C20FA3C00EA4FBD /* View */,
 			);
+			name = "Main (主要的)";
 			path = Main;
 			sourceTree = "<group>";
 		};
@@ -260,13 +267,14 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		04F7ED231C20FA3C00EA4FBD /* Message */ = {
+		04F7ED231C20FA3C00EA4FBD /* Message (消息) */ = {
 			isa = PBXGroup;
 			children = (
 				04F7ED241C20FA3C00EA4FBD /* Controller */,
 				04F7ED251C20FA3C00EA4FBD /* Model */,
 				04F7ED261C20FA3C00EA4FBD /* View */,
 			);
+			name = "Message (消息)";
 			path = Message;
 			sourceTree = "<group>";
 		};
@@ -293,13 +301,14 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		04F7ED271C20FA3C00EA4FBD /* Profile */ = {
+		04F7ED271C20FA3C00EA4FBD /* Profile (我) */ = {
 			isa = PBXGroup;
 			children = (
 				04F7ED281C20FA3C00EA4FBD /* Controller */,
 				04F7ED291C20FA3C00EA4FBD /* Model */,
 				04F7ED2A1C20FA3C00EA4FBD /* View */,
 			);
+			name = "Profile (我)";
 			path = Profile;
 			sourceTree = "<group>";
 		};
@@ -326,10 +335,11 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		04F7ED2B1C20FA3C00EA4FBD /* Tool */ = {
+		04F7ED2B1C20FA3C00EA4FBD /* Tool (工具类) */ = {
 			isa = PBXGroup;
 			children = (
 			);
+			name = "Tool (工具类)";
 			path = Tool;
 			sourceTree = "<group>";
 		};
