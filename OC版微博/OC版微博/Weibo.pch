@@ -1,0 +1,17 @@
+
+//
+//  Weibo.pch
+//  OC版微博
+//
+//  Created by mac on 15/12/16.
+//  Copyright © 2015年 mac. All rights reserved.
+//
+
+#ifndef Weibo_pch
+#define Weibo_pch
+
+#import "UIView+Extend.h"
+#import "NSObject+Log.h"
+#import "DLBasicController.h"
+
+#endif /* Weibo_pch */
